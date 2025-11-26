@@ -37,14 +37,14 @@ fun ModulesScreen() {
             id = "back_end",
             title = "PROGRAMAÇÃO BACK-END",
             description = "Treine sua lógica e entenda algoritmos",
-            imageResId = R.drawable.img_backend_java, // Imagem para o banner
+            imageResId = R.drawable.img_backend_xml, // Imagem para o banner
             type = ModuleType.BACK_END
         ),
         Module(
             id = "front_end",
             title = "PROGRAMAÇÃO FRONT-END",
             description = "Entenda como a web ganha forma",
-            imageResId = R.drawable.img_front2, // Imagem para o banner
+            imageResId = R.drawable.img_frontend_xml, // Imagem para o banner
             type = ModuleType.FRONT_END
         ),
         Module(
