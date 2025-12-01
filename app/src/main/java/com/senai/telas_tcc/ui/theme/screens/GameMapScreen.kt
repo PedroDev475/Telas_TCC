@@ -94,7 +94,7 @@ fun LevelItem(level: Level, index: Int) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             // MASCOTE (Aparece apenas no nível ATIVO e se NÃO for o baú)
-            if (level.status == LevelStatus.ACTIVE && !isChest) {
+            if (level.status == LevelStatus.ACTIVE) {
                 Text("🐦", fontSize = 40.sp) // Seu mascote aqui
                 Spacer(modifier = Modifier.width(8.dp))
             }
