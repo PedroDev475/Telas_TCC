@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Telas_TCCTheme {
 
-                CadastrarCursoScreen()
+                ConsultarCursosScreen()
             }
         }
     }

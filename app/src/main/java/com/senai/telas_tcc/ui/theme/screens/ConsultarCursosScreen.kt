@@ -68,7 +68,7 @@ fun ConsultarCursosScreen() {
                         .fillMaxSize()
                         .border(1.dp, Color.Black)
                 ) {
-                    // --- 1. CABEÇALHO (VERMELHO) ---
+                    // --- 1. CABEÇALHO (VERMELHO) --- --- //
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -212,7 +212,7 @@ fun ConsultarCursosScreen() {
                     NavigationBarItem(
                         icon = {
                             Image(
-                                painter = painterResource(id = R.drawable.corvo_xml), // <--- SEU ARQUIVO corvo.png
+                                painter = painterResource(id = R.drawable.ic_launcher_foreground), // <--- SEU ARQUIVO corvo.png
                                 contentDescription = "Corvo",
                                 modifier = Modifier.size(32.dp)
                             )

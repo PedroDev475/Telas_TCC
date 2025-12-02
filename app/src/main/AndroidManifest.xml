@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/corvo_xml"
+        android:icon="@drawable/home_corvo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/corvo_xml"
+        android:roundIcon="@drawable/home_corvo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Telas_TCC">
         <activity
