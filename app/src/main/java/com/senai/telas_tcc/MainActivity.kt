@@ -8,6 +8,7 @@ import com.senai.telas_tcc.ui.theme.screens.CadastrarCursoScreen
 import com.senai.telas_tcc.ui.theme.screens.ConsultarCursosScreen
 import com.senai.telas_tcc.ui.theme.screens.ModulesScreen
 import com.senai.telas_tcc.ui.theme.screens.SenaiGameScreen
+import com.senai.telas_tcc.ui.theme.screens.WelcomeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Telas_TCCTheme {
 
-                ConsultarCursosScreen()
+                WelcomeScreen()
             }
         }
     }

@@ -171,7 +171,7 @@ fun BottomNavBarCadastro() {
         NavigationBarItem(
             icon = {
                 Image(
-                    painter = painterResource(id = R.drawable.home_corvo), // Certifique-se de ter corvo.png
+                    painter = painterResource(id = R.drawable.img_corvo_png), // Certifique-se de ter corvo.png
                     contentDescription = "Corvo",
                     modifier = Modifier.size(32.dp)
                 )
